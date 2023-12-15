@@ -1,2 +1,2 @@
-# MBI3_resequencing
-Zadanie implementacyjne z ćwiczenia 3 z przedmiotu MBI, semestr 2023Z
+# Zadanie implementacyjne
+Proszę zapoznać się z formatem pliku [refFlat](https://genome.ucsc.edu/goldenPath/gbdDescriptions.html) oraz pobrać zawartość [tego pliku](https://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/refFlat.txt.gz). Proszę napisać skrypt, który wyliczy, ile wariantów (z pliku _coriell_chr1.vcf_) znajduje się w poszczególnych genach, których współrzędne znajdują się w pliku _refFlat_. Jako początek i koniec genu należy przyjąć kolumny _txStart_ i _txEnd_. Skrypt powinien zwracać tabelę z dwiema kolumnami (symbol genu, liczba wariantów). Należy dokonać implementacji w jezyku _R_ z wykorzystaniem pakietu [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) lub w języku _Python_ z wykorzystaniem biblioteki [pyranges](https://github.com/biocore-ntnu/pyranges).
